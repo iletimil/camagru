@@ -1,0 +1,91 @@
+body {
+    background-color: #edc7b7;
+    margin: 0;
+}
+h1 {
+    color: #ac3b61;
+    font-family: cursive;
+    font-weight: bolder;
+    font-size: 300%;
+}
+div {
+    width: 500px;
+    margin: 0 auto;
+    background: #eee2dc;
+    padding: 8px;
+    border-radius: 10px;
+    border: 2px solid #bab2b5;
+}
+h2 {
+    color: #ac3b61;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 180%;
+}
+label {
+    color: #123c69;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 100%;
+}
+.form {
+    width: 450px;
+    margin: 0 auto;
+    padding: 8px;
+}
+.inputvalues {
+    width: 426px;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+#reg_btn {
+    background-color: #bab2b5;
+    padding: 10px;
+    margin: 12px;
+    color: #123c69;
+    width: 420px;
+    border-radius: 10px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 900px) {
+    h1 {
+        font-weight: bold;
+        font-size: 180%;
+    }
+    div {
+        width: 300px;
+        margin: 0 auto;
+        padding: 4.8px;
+        border-radius: 6px;
+        border: 1.2px solid #bab2b5;
+    }
+    h2 {
+        font-size: 108%;
+    }
+    label {
+        font-size: 60%;
+    }
+    .form {
+        width: 270px;
+        margin: 0 auto;
+        padding: 4.8px;
+    }
+    .inputvalues {
+        width: 255.6px;
+        margin: 0 auto;
+        padding: 6px;
+        border-radius: 6px
+    }
+    #reg_btn {
+        width: 252px;
+        border-radius: 6px;
+        padding: 6px;
+        margin: 7.2px;
+        font-size: 12px;
+    }
+}

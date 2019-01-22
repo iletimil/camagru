@@ -1,0 +1,159 @@
+body {
+    background-color: #edc7b7;
+    margin: 0;
+}
+
+.header {
+    width: 100%;
+    overflow: hidden;
+    background-color: #eee2dc;
+    padding: 20px 10px;
+}
+
+.header-right {
+    padding-right: 20px;
+    float: right;
+}
+
+.header a {
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    line-height: 50px;
+    padding: 12px;
+}
+
+.camagru {
+    font-family: cursive;
+    color: #ac3b61;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.info {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #123c69;
+}
+
+.container {
+
+    margin: 0 auto;
+    display: flex;
+    padding-top: 50px;
+    justify-content: center;
+    align-content: center;
+    flex-flow: column nowrap;
+}
+
+.img-con {
+    margin: 0 auto;
+    width: 500px;
+    padding: 10px;
+}
+
+.img-con img {
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.img-con form {
+    display: inline;
+    margin: 0 auto;
+}
+.img-con p {
+    display: inline;
+    font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #123c69;
+    float: right;
+}
+
+.btn {
+    background-color: #bab2b5;
+    padding: 8px;
+    color: #123c69;
+    width: 100px;
+    border-radius: 10px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.com-con {
+    margin: 0 auto;
+    width: 500px;
+    padding: 10px;
+}
+
+.comment {
+    margin: 0 auto;
+}
+
+.comment textarea {
+    width: 490px;
+    height: 90px;
+    margin: 0 auto;
+}
+
+.com {
+    padding: 5px;
+    font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.clearfix {
+    clear: both;
+}
+
+@media only screen and (max-width: 900px) {
+    .header a {
+        float: none;
+        display: block;
+        text-align: center;
+        line-height: 30px;
+        padding: 7.2px;
+    }
+    .camagru {
+        float: none;
+        font-size: 30px;
+    }
+    .info {
+        float: none;
+        font-size: 12px;
+    }
+    .header-right {
+        float: none;
+    }
+    .container {
+        padding-top: 35px;
+    }
+    .img-con {
+        margin: 0 auto;
+        width: 330px;
+        padding: 5px;
+    }
+    .img-con p {
+        font-size: 70%;
+    }
+    .btn {
+        padding: 5.6px;
+        width: 70px;
+        border-radius: 7px;
+        font-size: 12.6px;
+    }
+    .com-con {
+        margin: 0 auto;
+        width: 330px;
+        padding: 5px;
+    }
+    .comment textarea {
+        width: 320px;
+        height: 63px;
+    }
+    .com {
+        padding: 3.5px;
+        font-size: 70%;
+    }
+}
